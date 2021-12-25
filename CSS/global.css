@@ -11,6 +11,9 @@
 .heading-big{
     font-size: 1.75rem;
 }
+.company-brands{
+    font-size:1.25rem;
+}
 /*colors*/
 .bg-dark-blue{
 background:#062e51;
@@ -18,8 +21,64 @@ background:#062e51;
 .bg-light-blue{
     background: #336ea2;
 }
+.bg-white{
+    background:#fff;
+}
+.bg-grey{
+    background: rgb(196, 193, 193);
+}
+/*buttons*/
+.btn{
+    margin-top:1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 9px; 
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background-color: #336ea2;
+    
+}
+.btn-primary:hover{
+    color:#fff;
+    background-color: #062e51 ;
+    border: 1px solid #336ea2;
+    font-weight: bolder;
+}
+.btn-dark{
+    background-color: #062e51;
+    border:1px solid #336ea2;
+}
+.btn-dark:hover{
+    color:#fff;
+    background-color:#336ea2;
+    border:1px solid #062e51;
+    font-weight: bolder;
+}
+.btn-block{
+    width: 100%;
+}
+
+/*Forms*/
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display:block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.35rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 7px;
+}
+.form-control i{
+    list-style-type: none;
+}
+
 /*container*/
 .container{
     max-width: 1200px;
     margin:0 auto;
 }
+/*contact*/

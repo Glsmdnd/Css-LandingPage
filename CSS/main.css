@@ -25,11 +25,14 @@ html{
     align-items: center;
 }
 #navbar ul li a{
-    padding: 0.75rem;
+    padding: 0.6rem;
+    margin: 0.5rem;
 }
 #navbar ul li a:hover{
     background: #336ea2;
     border-radius: 6px;
+    border:1px solid #062e51;
+    font-weight: bolder;
 }
 /*home section*/
 #home{
@@ -46,4 +49,107 @@ border-bottom: 1px solid rgb(145, 142, 142);
     height: auto;
     border: 2px solid rgb(0, 16, 49);
     border-radius: 100%;  
+}
+/* #home .name{
+    text-align: center;
+} */
+#home .name h2{
+    margin-bottom: 0.75rem;
+    
+}
+#home .name p{
+    font-weight:bolder;
+    opacity: 80%;
+}
+/* Training*/
+#courses,#training{
+    color: #fff;
+    padding: 0.6rem;
+   
+}
+#courses-training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#courses-training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+    padding-left: -0.5px;
+    margin-top: -3px;
+    height: 50%;
+
+}
+#courses-training .items .item:hover{
+    color:rgb(104, 100, 100);
+    font-weight: bolder;
+}
+#courses-training .items .item span:hover{
+    color: #fff;
+    font-weight: bolder;
+}
+#courses-training .items .item span{
+    color: #fff;
+  margin-left: -5px;
+    
+}
+#courses-training h3,h4{
+    text-decoration: underline;
+    color:#fff;
+}
+
+ i{
+   margin-right: 5px;
+   color:#fff;
+}
+#contact{
+    font:16px rgb(0, 16, 49);
+    font-weight: bolder;
+    
+    background-color: rgb(137, 174, 175);
+}
+#contact .contact-form{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type:none;
+    display: flex;
+    align-self: center;
+  
+}
+#contact .contact-form ul li{
+padding: 1rem;
+font-size: 2rem;
+}
+/*projects*/
+#projects{
+    padding: 0.6rem;
+}
+#projects .projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#projects .projects .proje{
+    width: 44%;
+    text-align: center;
+    padding: 2rem;
+    margin-top: -3px;
+    height: 50%;
+}
+#projects .projects .proje .proje-image img{
+    display: flex;
+    margin-right: 5rem;
+}
+#projects .projects .proje .proje-info .title, .description{
+    
+    text-align: center;
+    color: rgb(255, 238, 4);
+    font-weight: bolder;
+    margin-left: -6rem;
 }
